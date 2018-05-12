@@ -1,0 +1,73 @@
+_repo: The-Negro-Problem_15041
+_version: 0.1.0
+contributor:
+  contributors:
+  - agent_name: Washington, Booker T.
+    alias: Washington, Booker Taliaferro
+    birthdate: &id001 1856
+    deathdate: 1915
+    gutenberg_agent_id: '880'
+    url: http://www.gutenberg.org/2009/agents/880
+    wikipedia: http://en.wikipedia.org/wiki/Booker_T._Washington
+  - agent_name: Dunbar, Paul Laurence
+    birthdate: 1872
+    deathdate: 1906
+    gutenberg_agent_id: '6269'
+    url: http://www.gutenberg.org/2009/agents/6269
+    wikipedia: http://en.wikipedia.org/wiki/Paul_Laurence_Dunbar
+  - agent_name: Chesnutt, Charles W. (Charles Waddell)
+    birthdate: 1858
+    deathdate: 1932
+    gutenberg_agent_id: '252'
+    url: http://www.gutenberg.org/2009/agents/252
+    wikipedia: http://en.wikipedia.org/wiki/Charles_Chesnutt
+  - agent_name: Kealing, H. T. (Hightower Theodore)
+    birthdate: 1860
+    deathdate: 1918
+    gutenberg_agent_id: '6270'
+    url: http://www.gutenberg.org/2009/agents/6270
+  - agent_name: Du Bois, W. E. B. (William Edward Burghardt)
+    aliases:
+    - Bois, W. E. B. Du
+    - DuBois, W. E. B. (William Edward Burghardt)
+    - DuBois, W. E. Burghardt
+    birthdate: 1868
+    deathdate: 1963
+    gutenberg_agent_id: '226'
+    url: http://www.gutenberg.org/2009/agents/226
+    wikipedia: http://en.wikipedia.org/wiki/W._E._B._DuBois
+  - agent_name: Smith, Wilford H.
+    gutenberg_agent_id: '6271'
+    url: http://www.gutenberg.org/2009/agents/6271
+  - agent_name: Fortune, Timothy Thomas
+    alias: Fortune, T. Thomas (Timothy Thomas)
+    birthdate: *id001
+    deathdate: 1928
+    gutenberg_agent_id: '6268'
+    url: http://www.gutenberg.org/2009/agents/6268
+    wikipedia: http://en.wikipedia.org/wiki/Timothy_Thomas_Fortune
+covers:
+- cover_type: generated
+  image_path: cover.png
+description: ''
+gutenberg_bookshelf: African American Writers
+gutenberg_issued: '2005-02-14'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '15041'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'E151'
+- !lcsh 'African Americans'
+- !lcsh 'African Americans -- Politics and government -- 20th century'
+- !lcsh 'African Americans -- Social conditions -- To 1964'
+tableOfContents: Industrial education for the Negro / Booker T. Washington -- The
+  talented tenth / W.E. Burghardt DuBois -- The disfranchisement of the Negro / Charles
+  W. Chesnutt -- The Negro and the law / Wilford H. Smith -- The characteristics of
+  the Negro people / H.T. Kealing -- Representative American Negroes / Paul Laurence
+  Dunbar -- The Negro's place in American life at the present day / T. Thomas Fortune.
+title: The Negro Problem
+url: http://www.gutenberg.org/ebooks/15041
