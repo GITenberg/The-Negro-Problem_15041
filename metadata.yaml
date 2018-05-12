@@ -4,7 +4,7 @@ contributor:
   contributors:
   - agent_name: Washington, Booker T.
     alias: Washington, Booker Taliaferro
-    birthdate: &id001 1856
+    birthdate: 1856
     deathdate: 1915
     gutenberg_agent_id: '880'
     url: http://www.gutenberg.org/2009/agents/880
@@ -41,7 +41,7 @@ contributor:
     url: http://www.gutenberg.org/2009/agents/6271
   - agent_name: Fortune, Timothy Thomas
     alias: Fortune, T. Thomas (Timothy Thomas)
-    birthdate: *id001
+    birthdate: 1856
     deathdate: 1928
     gutenberg_agent_id: '6268'
     url: http://www.gutenberg.org/2009/agents/6268
@@ -50,6 +50,8 @@ covers:
 - cover_type: generated
   image_path: cover.png
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/15041#The-Negro-Problem
 gutenberg_bookshelf: African American Writers
 gutenberg_issued: '2005-02-14'
 gutenberg_type: Text
