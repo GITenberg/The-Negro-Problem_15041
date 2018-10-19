@@ -1,284 +1,280 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
 >
+  <cc:Work rdf:about="">
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+  </cc:Work>
   <pgterms:ebook rdf:about="ebooks/15041">
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/6268">
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1928</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1856</pgterms:birthdate>
-        <pgterms:name>Fortune, Timothy Thomas</pgterms:name>
-        <pgterms:alias>Fortune, T. Thomas (Timothy Thomas)</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Timothy_Thomas_Fortune"/>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/6269">
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1872</pgterms:birthdate>
-        <pgterms:name>Dunbar, Paul Laurence</pgterms:name>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Paul_Laurence_Dunbar"/>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1906</pgterms:deathdate>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Ne04f6d1bb21c45f1a1144e00fa58dc38">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>African Americans</rdf:value>
+    <dcterms:tableOfContents>Industrial education for the Negro / Booker T. Washington -- The talented tenth / W.E. Burghardt DuBois -- The disfranchisement of the Negro / Charles W. Chesnutt -- The Negro and the law / Wilford H. Smith -- The characteristics of the Negro people / H.T. Kealing -- Representative American Negroes / Paul Laurence Dunbar -- The Negro's place in American life at the present day / T. Thomas Fortune.</dcterms:tableOfContents>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nf1b78ef669b542fea95e9f698f286fce">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
       </rdf:Description>
-    </dcterms:subject>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</pgterms:downloads>
+    </dcterms:language>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-02-14</dcterms:issued>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/15041/15041-h.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/15041.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98871</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na05217ae4ddc4505ae723a3163daacd5">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf224be835d834a0ea1b064a6a32c7dd3">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-02-14T06:52:18</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1511601</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/15041.qioo">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T15:54:52.114310</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150243</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne66fa3162d7c48ce89a06f2cc622436b">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N030c4ff39a4b47b4addaf199d20b2377">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>E151</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/226">
-        <pgterms:alias>Bois, W. E. B. Du</pgterms:alias>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1868</pgterms:birthdate>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1963</pgterms:deathdate>
-        <pgterms:name>Du Bois, W. E. B. (William Edward Burghardt)</pgterms:name>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/W._E._B._DuBois"/>
-        <pgterms:alias>DuBois, W. E. Burghardt</pgterms:alias>
-        <pgterms:alias>DuBois, W. E. B. (William Edward Burghardt)</pgterms:alias>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/15041.kindle.images">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T20:51:10.657810</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd5f0d49bd73e4213b971149aebfa55cf">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">512064</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/15041.epub.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T20:51:06.043434</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N68647ab745724d4ca0630d82b74f1091">
+          <rdf:Description rdf:nodeID="N00aa255131c84674bf1af8170e224c2f">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1527964</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/15041.kindle.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168396</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-08T01:26:32.139348</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb135d3b23e2144da8cb0c05f851e50fc">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T20:51:06.866601</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/880">
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Booker_T._Washington"/>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1915</pgterms:deathdate>
-        <pgterms:name>Washington, Booker T.</pgterms:name>
-        <pgterms:alias>Washington, Booker Taliaferro</pgterms:alias>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1856</pgterms:birthdate>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/252">
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1932</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1858</pgterms:birthdate>
-        <pgterms:name>Chesnutt, Charles W. (Charles Waddell)</pgterms:name>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Charles_Chesnutt"/>
-      </pgterms:agent>
-    </marcrel:ctb>
-    <dcterms:title>The Negro Problem</dcterms:title>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-02-14</dcterms:issued>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N2b37e1bd434d45e6a34ccdd5c234f322">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:tableOfContents>Industrial education for the Negro / Booker T. Washington -- The talented tenth / W.E. Burghardt DuBois -- The disfranchisement of the Negro / Charles W. Chesnutt -- The Negro and the law / Wilford H. Smith -- The characteristics of the Negro people / H.T. Kealing -- Representative American Negroes / Paul Laurence Dunbar -- The Negro's place in American life at the present day / T. Thomas Fortune.</dcterms:tableOfContents>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/15041.txt.utf-8">
-        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ncd3061dfaaec465bb877d80c9ab43cd7">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">237128</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T20:50:54.702776</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nce40326727e44657b1495b334f1175df">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>African Americans -- Social conditions -- To 1964</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/15041.plucker">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N92d59823c51a4629b08d1bb4030ea5c7">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">133511</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T15:54:55.117300</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nbd17e16d61184121a918496f253ca453">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>African Americans -- Politics and government -- 20th century</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N65fcc92db52e4dbcb110a4e9ad676341">
+      <rdf:Description rdf:nodeID="N6facb69f9f4e4d76ae0cc2f08bb04695">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
     <marcrel:ctb>
-      <pgterms:agent rdf:about="2009/agents/6270">
-        <pgterms:name>Kealing, H. T. (Hightower Theodore)</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1918</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1860</pgterms:birthdate>
+      <pgterms:agent rdf:about="2009/agents/6269">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Paul_Laurence_Dunbar"/>
+        <pgterms:name>Dunbar, Paul Laurence</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1906</pgterms:deathdate>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1872</pgterms:birthdate>
       </pgterms:agent>
     </marcrel:ctb>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N069a4d8c7ffe40388f3fa6ebda6bc1e9">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>African Americans -- Social conditions -- To 1964</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/15041.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-08T01:26:34.862298</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2568984</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc06459d8f78d40929ca90dd881ecb189">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nc7a9dc34e66b4996a55c8b71f61e0f7e">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>E151</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Ncc5ecf11bfb04de1b4f293b4dfa2f049">
+        <rdf:value>African American Writers</rdf:value>
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nd541d2be6f504c7e887ed2b0bceaef1b">
+        <rdf:value>African Americans</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/15041/15041-h/15041-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260869</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-02-14T06:52:18</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N17d52549e76d4bbe8a9095699d847356">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/15041/15041.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">237160</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-02-14T06:52:18</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N31bbc39b5a004b028fbca587c0b3daea">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>The Negro Problem</dcterms:title>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/6270">
+        <pgterms:name>Kealing, H. T. (Hightower Theodore)</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1860</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1918</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/15041/15041-h.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N641bdfd378fc452e838e24cb5ea45c3e">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1511601</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-02-14T06:52:18</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N894032bb6fdb4aa39a8f6c32177199bc">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/15041.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1403006</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-08T01:26:31.820372</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N06c71f910f5340d796425c3d74551bcd">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/15041.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">416923</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9ca540750bee4e5c81984ba128471398">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-08T01:26:35.759289</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/15041.rdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Naa0bb2c0068041adab7ecddb90ea31f1">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16068</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:11:22.506958</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N909b60f01c044f2e8fc9e3d2f458b1d0">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>African Americans -- Politics and government -- 20th century</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
     <marcrel:ctb>
       <pgterms:agent rdf:about="2009/agents/6271">
         <pgterms:name>Smith, Wilford H.</pgterms:name>
       </pgterms:agent>
     </marcrel:ctb>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/15041/15041.txt">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-02-14T06:52:18</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd3c61426ddb046dc8f39adb41a0a6cec">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">237160</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/226">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/W._E._B._DuBois"/>
+        <pgterms:alias>Bois, W. E. B. Du</pgterms:alias>
+        <pgterms:alias>DuBois, W. E. Burghardt</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1963</pgterms:deathdate>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1868</pgterms:birthdate>
+        <pgterms:name>Du Bois, W. E. B. (William Edward Burghardt)</pgterms:name>
+        <pgterms:alias>DuBois, W. E. B. (William Edward Burghardt)</pgterms:alias>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/6268">
+        <pgterms:alias>Fortune, T. Thomas (Timothy Thomas)</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1856</pgterms:birthdate>
+        <pgterms:name>Fortune, Timothy Thomas</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1928</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Timothy_Thomas_Fortune"/>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/252">
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1858</pgterms:birthdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Charles_Chesnutt"/>
+        <pgterms:name>Chesnutt, Charles W. (Charles Waddell)</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1932</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:ctb>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/15041/15041.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb115f36ff21b4b52ac88bba533993bf9">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-02-14T06:52:18</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Naf335f0341bd4489bec04a2d72a7e15b">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88317</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/15041.epub.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T20:50:56.557922</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na2960a095fb345a9950ff2f16c92882c">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109325</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/15041/15041-h/15041-h.htm">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260869</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc7f2831a6b1d4a2d81ba716ee947f66c">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=us-ascii</rdf:value>
+          <rdf:Description rdf:nodeID="N21ca7e52e5d241e5b44140344b6948c6">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-02-14T06:52:18</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne04c893a29b4480c870c053e5a8c7c10">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/15041.txt.utf-8">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-08T01:26:27.250420</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/15041"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">237132</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1b05cd7a43864e4d85b8c883bf349d62">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/880">
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1856</pgterms:birthdate>
+        <pgterms:alias>Washington, Booker Taliaferro</pgterms:alias>
+        <pgterms:name>Washington, Booker T.</pgterms:name>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Booker_T._Washington"/>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1915</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157</pgterms:downloads>
+    <dcterms:license rdf:resource="license"/>
   </pgterms:ebook>
-  <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
-  </cc:Work>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Booker_T._Washington">
-    <dcterms:description>Wikipedia</dcterms:description>
-  </rdf:Description>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Timothy_Thomas_Fortune">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Paul_Laurence_Dunbar">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/W._E._B._DuBois">
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Charles_Chesnutt">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Charles_Chesnutt">
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Booker_T._Washington">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/W._E._B._DuBois">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
 </rdf:RDF>
